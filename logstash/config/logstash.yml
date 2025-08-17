@@ -1,0 +1,5 @@
+# logstash/config/logstash.yml
+pipeline.ordered: auto
+# Uncomment if you want internal monitoring to Elasticsearch (not required)
+# xpack.monitoring.enabled: true
+# xpack.monitoring.elasticsearch.hosts: [ "http://elasticsearch:9200" ]
